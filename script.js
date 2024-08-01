@@ -6,66 +6,66 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "vocé gosta de festas?",
+        enunciado: " Quem foi o Boitatá?",
         alternativas: [
             {
-                texto: "sim",
+                texto: "Ser do folclore brasileiro tradicionalmente identificado como uma cobra de fogo, cujo seu propósito é o e proteger os camposs daqueles que promovem inceêndios criminosos",
                 afirmacao: ""
             },
             {
-                texto: "não",
+                texto: "Foi um dragão mitológico de origem japonesa, onde era venerado e clamado em rituais  ",
                 afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "vocé é mais introvertido ou extrovertido?",
+        enunciado: "Qual a origem do folclore brasileiro?",
         alternativas: [
             {
-                texto: "introvertido",
+                texto: "Se originou entre um consenso dos estudiosos do assunto; as lendas, festas e personagens que compõem o folclore brasileiro possuem influência europeia, portuguesa, africana e indígena.",
                 afirmacao: ""
             },
             {
-                texto: "extrovertido",
+                texto: "Originada parcialmente pelos chineses, os franceses também estiveram presentes na criação do folclore.",
                 afirmacao:""
             }
         ]
     },
     {
-        enunciado: "vocé prefere dia ou noite?",
+        enunciado: "Qual a lenda do Boto-cor-de-rosa?",
         alternativas: [
             {
-                texto: "dia",
+                texto: "Dentro do folclore, a lenda fala de um boto que ",
                 afirmacao: ""
             },
             {
-                texto: "noite",
+                texto: "Na lenda, se decreve um boto que se transforma em um homem belo e sedutor. Na forma humana, o boto seduz as mulheres para engravidá-las. Essas mulheres são abandonadas pelo ser, que retorna para o rio em sua forma de animal.",
                 afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "vocé? pensa por qual lado, razão ou emoção?",
+        enunciado: "Quem è o companheiro da Cuca,uma bruxa do folclore brasileiro?",
         alternativas: [
             {
-                texto: "razão",
+                texto: "O boitatà è o companheiro da Cuca",
                 afirmacao: ""
             },
             {
-                texto: "emoção",
+                texto: "O saci-pererê é o companheiro da Cuca",
                 afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "quando vocé vai em uma festa que não conhece ninguém, você...",
+        enunciado: "Qual é a origem da palavra folclore?",
         alternativas: [
             {
-                texto: "fico mais no meu canto e só curto",
+                texto: "A palavra folclore teve origem em 22 de aagosto de 1846.",
                 afirmacao: ""
             },
             {
-                texto: "chego socializando e fazendo amigos novos",
+                texto: "Teve origem em 22 de agosto de 1776.",
                 afirmacao: ""
             }
         ]
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "vocé é..";
+    caixaPerguntas.textContent = "vocé tem um certo conhecimento sobre o Folclore agora!";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }

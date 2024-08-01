@@ -1,9 +1,9 @@
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #65a2d8 ;
+    --cor-principal: #7eb3df ;
+    --cor-secundaria: #b0d2f8; 
+    --cor-destaque: #000000e0;
+    --cor-texto: #000000;
 
 }
 
@@ -18,10 +18,10 @@ body {
 
 .caixa-principal{
     background-color: var(--cor-principal);
-    width: 90%;
-    max-width: 600px;
+    width: 80%;
+    max-width: 500px;
     text-align: center;
-    padding: 20px;
+    padding: 28px;
 }
 
 h1{
@@ -32,9 +32,9 @@ button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
-    border-radius: 15px;
-    padding: 15px;
-    transition: background-color 0.3s;
+    border-radius: 13px;
+    padding: 23px;
+    transition: background-color 0.5s;
 }
 
 button:hover{
